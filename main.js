@@ -16,7 +16,7 @@ module.exports = (course, stepCallback) => {
         });
 
         randomSectionObjects.forEach(section => {
-            course.log('Course uses Random Sections in Quizzes', {
+            course.log('Random Sections in Quizzes', {
                 'Quiz': section.quiz,
                 'Section Title': section.sectionTitle,
                 'Number Displayed to User': section.displayedCount
